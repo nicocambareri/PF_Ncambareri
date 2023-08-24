@@ -21,28 +21,54 @@ header .nav-link:hover {
   color: rgb(234, 239, 149) !important;
 }
 
-.seccion_carrusel_uno {
-  padding-top: 20px;
-  width: 85.2%;
+.seccion_carrusel_index {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.seccion_carrusel_uno .carousel-item {
-  height: 100%;
+.seccion_carrusel_index .carousel-item {
+  height: 50%;
+  width: 100%;
 }
-.seccion_carrusel_uno .carousel-item .img_carrusel {
+.seccion_carrusel_index .carousel-item .img_carrusel {
   border-radius: 15px;
 }
-.seccion_carrusel_uno .carousel-item .img_carrusel .seccion_dos {
-  background-color: black;
+
+.seccion_carrusel_index_dos {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.seccion_carrusel_index_dos .carousel-item {
+  height: 50%;
+  width: 100%;
+}
+.seccion_carrusel_index_dos .carousel-item .img_carrusel {
+  border-radius: 15px;
 }
 
-.contenedor_tarjeta_index {
+.seccion_dos {
+  display: flex;
+  justify-content: space-around;
+}
+.seccion_dos .contenedor_tarjetas {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.seccion_dos .contenedor_tarjetas .contenedor_tarjeta_index {
+  height: 22rem;
   background: linear-gradient(135deg, #050505 21px, #3f4041 22px, #3f4041 24px, transparent 24px, transparent 67px, #3f4041 67px, #3f4041 69px, transparent 69px), linear-gradient(225deg, #050505 21px, #3f4041 22px, #3f4041 24px, transparent 24px, transparent 67px, #3f4041 67px, #3f4041 69px, transparent 69px) 0 64px;
   background-color: #050505;
   background-size: 64px 128px;
 }
-.contenedor_tarjeta_index .texto_cartas_index {
+.seccion_dos .contenedor_tarjetas .contenedor_tarjeta_index .texto_cartas_index {
   color: whitesmoke;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 footer .fuente_breadcrumb {

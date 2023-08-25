@@ -22,26 +22,36 @@ $vista: mobile;
      }
      
 }
+.card-text {
+    display: none;
+}
+   
+.card-img-top {
+   width: 100%;
+    height: 100%;
+   
+}
+.card-body{
+   display: none;
+}
 
- @if $vista == mobile {
-     @media (max-width: 600px){
-        .contenedor_img_espacios{
-            border: 1.5px solid rgb(65, 65, 65);
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        
-            .card-body h5{
-                font-size: 1rem;
-                text-align: center;
-            } 
-            .card-body p {
-                display: none;
-            }
-        }
+
+@if $vista == mobile {
+    @media (max-width: 600px){
+       .contenedor_img_espacios{
+           border: 1.5px solid rgb(65, 65, 65);
+           margin-top: 1rem;
+           margin-bottom: 1rem;
+
+           .card-body h5{
+               font-size: 1rem;
+               text-align: center;
+           } 
+           .card-body p {
+               display: none;
+           }
+       }
+   }
+
     }
-
-     }
-    
-
-
 

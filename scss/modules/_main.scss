@@ -33,17 +33,13 @@
     
      .seccion_dos {
          display: flex;
+         gap:10px;
          .contenedor_tarjetas{
              display: flex;
              height: 100%;
              width: 100%;
-             margin: 10px;
-             
-
-             
-                         
-    
              .contenedor_tarjeta_index{
+               
                  height: 22rem;
                  background:
                  linear-gradient(135deg, #050505 21px, #3f4041 22px, #3f4041 24px, transparent 24px, transparent 67px, #3f4041 67px, #3f4041 69px, transparent 69px),

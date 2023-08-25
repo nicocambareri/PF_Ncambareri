@@ -52,12 +52,12 @@ header .nav-link:hover {
 
 .seccion_dos {
   display: flex;
+  gap: 10px;
 }
 .seccion_dos .contenedor_tarjetas {
   display: flex;
   height: 100%;
   width: 100%;
-  margin: 10px;
 }
 .seccion_dos .contenedor_tarjetas .contenedor_tarjeta_index {
   height: 22rem;

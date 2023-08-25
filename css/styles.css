@@ -122,30 +122,31 @@ footer .contenedor_footer .boton_footer:hover .color_font_footer {
 
 .contenedor_img_espacios {
   display: flex;
-  margin-top: 15px;
-  border-color: whitesmoke;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: black;
 }
 .contenedor_img_espacios .h5_banio {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   color: whitesmoke;
-  text-align: center;
+  text-align: start;
   justify-content: center;
   text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
 }
 
 .p_uno_banio {
-  font-size: 3rem;
+  font-size: 2rem;
   color: whitesmoke;
-  text-align: center;
+  text-align: start;
   justify-content: center;
   text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
 }
 
 .p_dos_banio {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: whitesmoke;
-  text-align: center;
+  text-align: start;
   justify-content: center;
   text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
 }

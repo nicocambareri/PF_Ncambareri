@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: black;
   position: relative;
@@ -106,7 +107,12 @@ footer .contenedor_footer .boton_footer:hover .color_font_footer {
 }
 
 .tarjetas_colores {
-  padding: 10px;
+  padding: 20px;
+  background-color: black;
+}
+.tarjetas_colores .contenedor_tarjetas_colores {
+  background-color: black;
+  color: whitesmoke;
 }
 
 .boton_contacto_enviar {
@@ -125,10 +131,12 @@ footer .contenedor_footer .boton_footer:hover .color_font_footer {
   margin-top: 5rem;
   margin-bottom: 5rem;
   background-color: black;
+  justify-content: center;
+  align-items: center;
 }
 .contenedor_img_espacios .h5_banio {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   color: whitesmoke;
   text-align: start;
   justify-content: center;
@@ -136,7 +144,7 @@ footer .contenedor_footer .boton_footer:hover .color_font_footer {
 }
 
 .p_uno_banio {
-  font-size: 2rem;
+  font-size: 1rem;
   color: whitesmoke;
   text-align: start;
   justify-content: center;
@@ -144,7 +152,7 @@ footer .contenedor_footer .boton_footer:hover .color_font_footer {
 }
 
 .p_dos_banio {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: whitesmoke;
   text-align: start;
   justify-content: center;
@@ -152,13 +160,17 @@ footer .contenedor_footer .boton_footer:hover .color_font_footer {
 }
 
 .contenedor_imagen_mapa {
-  background-color: rgb(65, 65, 65);
+  background-color: black;
   color: whitesmoke;
+  text-align: center;
 }
 .contenedor_imagen_mapa .boton_contacto_ubicacion_mapa {
   background-color: whitesmoke;
   color: black;
   border: 1px solid rgb(234, 239, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contenedor_imagen_mapa .boton_contacto_ubicacion_mapa:hover {
   background-color: rgb(234, 239, 149);
@@ -171,19 +183,33 @@ footer .contenedor_footer .boton_footer:hover .color_font_footer {
   color: whitesmoke;
 }
 
-.card-text {
-  display: none;
+@media (max-width: 1000px) {
+  .alineador_textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor_img_espacios .h5_banio {
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 1px 4px 2px 1px black;
+  }
+  .contenedor_tarjetas {
+    margin: 5px;
+  }
+  .texto_cartas_index {
+    display: none;
+  }
+  .imagenes_pequeñas_index {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor_tarjeta_index {
+    display: none;
+  }
 }
-
-.card-img-top {
-  width: 100%;
-  height: 100%;
-}
-
-.card-body {
-  display: none;
-}
-
 @media (max-width: 600px) {
   .contenedor_img_espacios {
     border: 1.5px solid rgb(65, 65, 65);
